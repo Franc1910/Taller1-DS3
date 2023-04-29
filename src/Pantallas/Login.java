@@ -162,6 +162,7 @@ public class Login extends javax.swing.JFrame {
 
     private void btnOlvContraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOlvContraActionPerformed
         Utilidades.mostrarMensaje("Usuario: profesor \nContraseña: taller1", null);
+        jtfUsuario.requestFocus();
     }//GEN-LAST:event_btnOlvContraActionPerformed
 
     private void jpfContraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jpfContraseniaActionPerformed
