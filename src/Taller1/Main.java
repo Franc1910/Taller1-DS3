@@ -45,6 +45,6 @@ public class Main {
         
         UIManager.put("ScrollPane.border", BorderFactory.createEmptyBorder());  // Establecer bordes invisibles
        
-        new Pantallas.JFramePantPrincipal().setVisible(true);
+        new Pantallas.Login().setVisible(true);
     }
 }
